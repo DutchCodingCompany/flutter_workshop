@@ -39,11 +39,17 @@ To have a nice list of beers in our app, we need to create a widget that shows a
 Can you create a nice widget that displays the beer name, tagline and description? Maybe you can add a picture of the beer? I suggest using some of these widgets:
 
 [- Column (to stack widgets on top of each other)](https://api.flutter.dev/flutter/widgets/Column-class.html)
+
 [- Row (to place widgets next to each other)](https://api.flutter.dev/flutter/widgets/Row-class.html)
+
 [- Text (to display text)](https://api.flutter.dev/flutter/widgets/Text-class.html)
+
 [- Image.network (to display an image)](https://api.flutter.dev/flutter/widgets/Image-class.html)
+
 [- SizedBox (to add some spacing between widgets)](https://api.flutter.dev/flutter/widgets/SizedBox-class.html)
+
 [- Card (to add a nice background to your widget)](https://api.flutter.dev/flutter/material/Card-class.html)
+
 
 And there are many more widgets to try and use. The sky is the limit!
 
