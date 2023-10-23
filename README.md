@@ -111,8 +111,9 @@ Can you change the code so that it only shows you confetti if you load in the la
 
 ## Learn more? 📕
 
-Have some questions you want to ask me after the workshop? Find me on X (@Bassiuz)[https://x.com/bassiuz] or send me an email at [b@sdevaan.nl]. I'll gladly help you along with your Flutter journey!
-Want to have a nice evening learning more about the tech space, while enjoying pizza and beers with other likeminded people? Come to our *free* meetup, Checkout.events[https://checkout.events/], de gezelligste dev Meetup!
+Have some questions you want to ask me after the workshop? Find me on [X (@Bassiuz)](https://x.com/bassiuz) or send me an email at [b@sdevaan.nl]. I'll gladly help you along with your Flutter journey!
+
+Want to have a nice evening learning more about the tech space, while enjoying pizza and beers with other likeminded people? Come to our *free* meetup, [Checkout.events, de gezelligste dev Meetup!](https://checkout.events/)
 
 If you want to learn more about Flutter, here are a few resources to get you started:
 
