@@ -1,6 +1,5 @@
 import 'dart:math';
 
-import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_workshop/beer/beer.dart';
 import 'package:flutter_workshop/beer/beer_service.dart';
@@ -48,7 +47,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   List<Beer> beers = [];
   //Step 5: remove this comment te create the controller:  late ConfettiController controller;
-  late ConfettiController controller;
 
   @override
   void initState() {
@@ -56,7 +54,6 @@ class _MyHomePageState extends State<MyHomePage> {
     loadBeers();
 
     //Step 5: remove this comment te initialize the controller:  controller = ConfettiController(duration: const Duration(seconds: 1));
-    controller = ConfettiController(duration: const Duration(seconds: 1));
   }
 
   void loadBeers() async {
@@ -69,7 +66,6 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter++;
     });
     //Step 5: remove this comment te create the controller:  controller.play();
-    controller.play();
   }
 
   @override
@@ -102,20 +98,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
                 //Step 5: Add the ConfettiWidget here:
-                Align(
-                  alignment: Alignment.center,
-                  child: ConfettiWidget(
-                    confettiController: controller,
-                    blastDirectionality: BlastDirectionality.explosive, // don't specify a direction, blast randomly
-                    colors: const [
-                      Colors.green,
-                      Colors.blue,
-                      Colors.pink,
-                      Colors.orange,
-                      Colors.purple
-                    ], // manually specify the colors to be used
-                  ),
-                ),
               ],
             ),
       floatingActionButton: FloatingActionButton(

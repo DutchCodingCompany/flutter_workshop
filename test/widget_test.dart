@@ -31,7 +31,7 @@ void main() {
 
       expect(find.text('Flutter Workshop'), findsOneWidget);
 
-      expect(find.text('Trashy Blonde'), findsOneWidget);
+      // Step 4 (extra): Can you check here if the actual text of the beers is rendered as well?
 
       expect(find.byType(YourOwnWidget), findsNWidgets(amountOfTaps));
     });

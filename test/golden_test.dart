@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_workshop/beer/beer.dart';
 import 'package:flutter_workshop/main.dart';
 import 'package:flutter_workshop/theming/workshop_theme.dart';
-import 'package:flutter_workshop/widgets/your_own_widget.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mocktail_image_network/mocktail_image_network.dart';
 
@@ -33,13 +31,13 @@ void main() {
     await mockNetworkImages(() async {
       // Step 4: Add your own widget golden test here!
 
-      await tester.pumpWidget(testWrapper(
-        child: const YourOwnWidget(
-            beer: Beer(name: 'hallo', tagline: 'hallo2', description: 'hallo23', imageUrl: 'imageUrl', abv: 12)),
-      ));
-      await tester.pumpAndSettle();
+      await tester.pumpWidget(testWrapper(child: Container() // Replace this container with your own widget
 
-      await expectLater(find.byType(YourOwnWidget), matchesGoldenFile('your_widget_golden_test.png'));
+          ));
+      await tester.pumpAndSettle(); // We do this to wait for all the rendering to finish.
+
+      // The widget should be finished rendering now. We need to do a 'expect' here and compare it with the golden file.
+      // Implement that here!
     });
   });
 }

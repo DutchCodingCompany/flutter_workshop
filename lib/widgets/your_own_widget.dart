@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_workshop/theming/sizes.dart';
-import 'package:flutter_workshop/theming/workshop_colors.dart';
 
 import '../beer/beer.dart';
 
@@ -21,43 +19,6 @@ class YourOwnWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(Sizes.s),
-        child: Row(
-          children: [
-            Container(
-              color: WorkshopColors.white,
-              child: Image.network(
-                beer.imageUrl,
-                height: 100,
-                width: 100,
-                fit: BoxFit.fitHeight,
-              ),
-            ),
-            const SizedBox(
-              width: Sizes.m,
-            ),
-            Flexible(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(beer.name, style: Theme.of(context).textTheme.titleMedium),
-                  Text(beer.tagline, style: Theme.of(context).textTheme.bodySmall),
-                  const SizedBox(
-                    height: Sizes.m,
-                  ),
-                  Text(
-                    beer.description,
-                    maxLines: 3,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
+    return Container();
   }
 }

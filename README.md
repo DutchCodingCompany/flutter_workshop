@@ -77,6 +77,8 @@ This will run the tests again, but update the golden images. If you run the test
 
 Currently, our test is testing the full app, but don't you think it also would be nice to test only the new widget you just made? Can you make a Golden Test for that widget only? I already made a start for you in the `golden_test.dart` file. 
 
+If you want to go deeper on some testing, can you improve the teset in `widget_test.dart` as well?
+
 ## Step 5: Add a package to your application!
 
 Luckily we don't have to reinvent the wheel when building apps. On the website pub.dev are a lot of package you can easily add to your application. Today we are going to add a bit of confetti to our app to make our app an actual party! 🎉
