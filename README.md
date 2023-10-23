@@ -6,6 +6,8 @@ Welcome to the Flutter Workshop hosted by Dutch Coding Company! 🚀
 
 In this git repository is the starting point of our workshop. We will be building a simple app that shows a list of beers! We will be using the [Punk API](https://punkapi.com/documentation/v2) to get our data from.
 
+If you need any guidance, you can checkout the `completed-workshop` branch to view my solution. You'll learn most if you try it yourself, but if you get stuck, you can always take a look at my solution.
+
 ## Step 1: Run the application
 
 I suggest opening the application in a editor that has Flutter support. I personally use VSCode, but Android Studio also has great support for Flutter. But you can use anything you want. Open the application in the editor you like. To get all the nessecary packages to run the application, run the following command in the terminal:
