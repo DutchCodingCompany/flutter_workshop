@@ -1,0 +1,36 @@
+name: flutter_workshop
+description: A project to teach the basics of Flutter.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  confetti: ^0.7.0
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  http: ^1.1.0
+  mocktail_image_network: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/fonts/Montserrat/
+    - assets/fonts/Montserrat/static/
+    - assets/fonts/Mulish/
+    - assets/fonts/Mulish/static/
